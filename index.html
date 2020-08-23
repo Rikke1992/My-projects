@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row-1">
+        <div class="wraper col-8 offset-2">
+            <div class="row-1">
+                <div class="col-12">
+                    <label for="inputText">Новое дело:</label>
+                    <input placeholder ='Введите событие' type="text" id='inputText'>
+                    <label for="inputDate">Дата завершения:</label>
+                    <input placeholder ='Введите событие' type="date" id='inputDate'>
+                    <button id='buttonInpput'>Создать событие</button>
+                    <button id='delete'>Удалить событие</button>
+                </div>
+            </div>
+            <div class='list'>
+            
+            </div>
+            <div id="edit" class="edit" hidden>
+                <label for="editInput" >Введите корректировку</label>
+                <input type="text" id="editInput" placeholder='' >
+                <label for="editDate">Дата завершения:</label>
+                <input placeholder ='' type="date" id='editDate'>
+                <button id="editOk">Принять</button>
+                <button id="editCancel">Отмена</button>
+            </div>
+        </div>
+    </div>
+    <script src="app3.js"></script>
+</body>
+</html>

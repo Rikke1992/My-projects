@@ -1,0 +1,12 @@
+body {
+    background-image: url(image/grey-gradient-background.jpg);
+}
+.wraper{
+    background-color: #9aa8ac;
+}
+.lineThrough{
+
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
